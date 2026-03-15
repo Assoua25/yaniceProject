@@ -22,9 +22,6 @@ pnpm-debug.log*
 .env.development
 .env.production
 
-# vercel
-.vercel
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -35,3 +32,10 @@ next-env.d.ts
 # misc
 .DS_Store
 *.pem
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/
+.idea/

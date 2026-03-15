@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "redirects": [
+    { "source": "/ancien", "destination": "/nouveau", "permanent": true }
+  ],
+  "env": {
+    "API_KEY": "@api_key"
+  }
+}
